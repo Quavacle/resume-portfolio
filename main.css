@@ -1,0 +1,66 @@
+li {
+	list-style-type: none
+}
+.brand {
+	display: block;
+	text-align: center;
+}
+
+.name {
+	display: inline-block;
+	text-align: center;
+	justify-content: center;
+}
+
+.card {
+	margin: 10px 10px 10px 10px;
+}
+
+.img-thumbnail {
+	display: inline-block;
+	max-width: 100%;
+	height: auto;
+}
+
+.thumb {
+	
+  object-position: center; /* Center the image within the element */
+  width: 100%;
+  height: 250px;
+
+  margin-bottom: 1rem;
+}
+.img {
+ 	max-width: 600px;
+ }
+.main-img {
+	display: block;
+	height: 200px;
+	width: auto;
+}
+
+.card-description {
+	margin-top: 10px;
+}
+
+.card {
+	width: 50rem;
+}
+.badges {
+	margin-top: 10px;
+	padding-bottom: 0px;
+}
+
+#out-link-top{
+	border-radius: 0% 0% 0% 0%;
+}
+
+#out-link-bottom{
+	border-radius: 0% 0% 0% 0%;
+	border-bottom-left-radius: .25rem;
+	border-bottom-right-radius: .25rem;
+}
+
+.cardholder div:nth-child(0) {
+	align-content: center;
+}
