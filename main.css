@@ -1,3 +1,9 @@
+body {
+	background-color: #364859;
+}
+p {
+	font-family: 'Inria Serif', serif;
+}
 li {
 	list-style-type: none
 }
@@ -43,9 +49,7 @@ li {
 	margin-top: 10px;
 }
 
-.card {
-	width: 50rem;
-}
+
 .badges {
 	margin-top: 10px;
 	padding-bottom: 0px;
@@ -61,6 +65,25 @@ li {
 	border-bottom-right-radius: .25rem;
 }
 
-.cardholder div:nth-child(0) {
-	align-content: center;
+
+.headshot {
+	border-radius: 100%;
+	border-style: solid;
+	border-color: #17a2b8;
+	width: 125px;
 }
+
+.btn {
+	margin-top: 50px;
+	border-radius: 0.25rem !important;
+	height: 40px;
+}
+
+.sideart{
+	max-width: 15rem;
+}
+
+.container-fluid {
+	
+}
+
