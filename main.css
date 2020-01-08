@@ -2,6 +2,7 @@ body {
 	background-color: #364859;
 }
 p {
+	padding: 5px 5px 5px 5px;
 	font-family: 'Inria Serif', serif;
 }
 li {
@@ -19,7 +20,7 @@ li {
 }
 
 .card {
-	margin: 10px 10px 10px 10px;
+	margin: 10px 5px 10px 5px;
 }
 
 .img-thumbnail {
