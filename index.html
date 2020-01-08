@@ -4,17 +4,18 @@
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="https://fonts.googleapis.com/css?family=Inria+Serif&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Archivo+Narrow&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="main.css" doctype="stylesheet">
 </head>
 <body>
-	<div class="card bg-dark text-white">
+	<div class="hero">
 		<div class="row">
 				<div class="col-lg-3 mx-auto" align="center">
 					<img src="images/decorative-right.svg" class="sideart d-none d-sm-block">
 				</div>
-			<div class="col-lg-3 mx-auto" align="center">
+			<div class="col-lg-3 mx-auto text-white" align="center">
 				<h1>Bronson Valiquet Myers</h1>
 				<img src="images/headshot1.jpg" class="headshot">
 				<h3>Full Stack Developer</h3>
@@ -23,33 +24,30 @@
 					<img src="images/decorative.svg" class="sideart d-none d-sm-block">
 				</div>
 		</div>
-		<div class="row">
-			<div class="col-lg-3 mx-auto">
-				
-				<h4 align="center">About</h4>
-				<br />
-				<p>Bronson Valiquet Myers is a developer based in Tucson, Arizona. As a programmer, he is constantly striving to master usable and relevant technlogies. He has worked from frontend design back to handcoding SQL queries and enjoys working in all areas of programming.
+	</div>
+		<div class="card bg-dark text-white topcard">
+		<div class="d-flex row">
+			<div class="col-lg-3 mx-auto">		
+				<h4 align="center">About</h4>	
+				<p>&emsp;Bronson Valiquet Myers is a developer based in Tucson, Arizona. As a programmer, he is constantly striving to master usable and relevant technlogies. He has worked from frontend design back to handcoding SQL queries and enjoys working in all areas of programming.
 				</p>
 			</div>
-			<div class="d-flex justify-content-around col-lg-3 mx-auto align-middle">
+			<div class="d-flex col-lg-3 text-center justify-content-center align-self-center">
 				<a href="https://github.com/Quavacle/" class="btn btn-info" id="out-link-top"><svg class="i-github" viewBox="0 0 64 64" width="24" height="24">
 						<path stroke-width="0" fill="currentColor" d="M32 0 C14 0 0 14 0 32 0 53 19 62 22 62 24 62 24 61 24 60 L24 55 C17 57 14 53 13 50 13 50 13 49 11 47 10 46 6 44 10 44 13 44 15 48 15 48 18 52 22 51 24 50 24 48 26 46 26 46 18 45 12 42 12 31 12 27 13 24 15 22 15 22 13 18 15 13 15 13 20 13 24 17 27 15 37 15 40 17 44 13 49 13 49 13 51 20 49 22 49 22 51 24 52 27 52 31 52 42 45 45 38 46 39 47 40 49 40 52 L40 60 C40 61 40 62 42 62 45 62 64 53 64 32 64 14 50 0 32 0 Z"></path>
 					</svg>Github</a>
 						<a href="mailto:bronsonvaliquetmyers@gmail.com" class="btn btn-info" id="out-link-top"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z"/></svg>Email</a>
 			</div>
 			<div class="col-lg-3 mx-auto align-middle">
-
 				<h4 align="center">Side bar</h4>
-				<br />
-
-				<p>Besides coding, Bronson enjoys playing music, writing stories, crafting bitters, attempting to organize D&D groups, and spending time with his newborn son.</p>
+				<p>&emsp;Besides coding, Bronson enjoys playing music, writing stories, crafting bitters, attempting to organize D&D groups, and spending time with his newborn son.</p>
 			</div>
 		</div>
 	</div>
 
 
 
-	<div class="container-fluid">
+	<div class="container-fluid"><span align="center"><h1 class="projectHead">A Few Projects</h1></span>
 		<div class="row justify-content-center">
 			<div class="col-sm-10 col-lg-6">
 				<div class="card text-white bg-dark mb-3 align-middle">
@@ -180,6 +178,7 @@
 							</div>
 						</div>
 						<div class="col-12 card-description"> A to-do list styled after Trello. Written as a dynamic SPA for easy re-organization and a simple drag-and-drop style interface.
+							<br />
 							<br />
 							<br />
 							User authentication
@@ -337,7 +336,7 @@
 						</div>
 
 						<div class="col-12 card-description"> Nomster is a restaurant review site, based off of Yelp. It features dynamically generated pages, email notifications, and user dashboards.
-
+							<br />
 							<br />
 							<br />
 							Google maps integration
